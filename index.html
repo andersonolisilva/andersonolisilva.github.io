@@ -1,60 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        body {
-            font-family: sans-serif;
-        }
-        .container {
-            display: flex;
-            justify-content: right;
-            align-items: right;
-            height: 100vh;
-            flex-flow: column;
-        }
-    </style>
-    <title>Site no GitHub Pages</title>
+    <title>Meu Portfólio | Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
+
+    <header>
+        <nav>
+            <div class="logo">Agym Sistemas</div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Sistemas</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Desenvolvendo soluções inteligentes</h1>
+        <p>Especialista em sistemas de gestão e aplicativos móveis.</p>
+    </section>
+
+    <section id="sobre" class="container">
+        <h2>Sobre Mim! Anderson Silva, mas não limitando a isso...</h2>
+        <div class="about-content">
+            <p>Olá! Sou desenvolvedor com foco em criar ferramentas que facilitam o dia a dia. Minha carreira é pautada
+                em participações estratégicas em projetos de alta relevância nas empresas pelas quais eu atuei e atuo.
+            </p>
+            <p>Formado como Bacharel em Sistemas de Informação pela Universidade Potiguar - UnP, no ano de 2011, com
+                curso de especialização em desenvolvimento de software corporativo que habilita o profissional no
+                desenvolvimento de aplicações WEB utilizando a plataforma Java Enterprise Edition, aplicações
+                distribuídas e dispositivos móveis. </p>
+            <p>
+
+                Trabalho com TI desde 2007, iniciei a carreira ministrando curso profissionalizante, trabalhei com
+                infraestrutura de TI, obtive experiência com suporte ao usuário e liderança de equipe.
+            </p>
+            <p>
+
+                Em 2009 ingressei na área de análise e desenvolvimento de sistemas o que me permitiu por em prática o
+                que
+                estava aprendendo na Universidade e evoluir profissionalmente. Tive oportunidade de trabalhar com
+                diversas
+                tecnologias e adquirir conhecimento avançado em análise e integração de sistemas.
+            </p>
+            <p>
+
+                A partir do ano de 2010 iniciei uma nova fase profissional a partir do ingresso na área de projetos de
+                TI,
+                trabalhando inicialmente como recurso técnico do projeto e atualmente como gestor de projetos/equipes.
+            </p>
+            <p>
+
+                Pesquisador por vocação, com foco nas melhores práticas, alto potencial para trabalho em equipe buscando
+                a
+                solução ideal para a necessidade da empresa, além de habilidade para conduzir palestras e treinamentos.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="bg-light">
+        <div class="container">
+            <h2>Meus Sistemas</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Sistema de Lojas</h3>
+                    <p>Gestão completa de estoque e pedidos de vendas. Ideal para comércios e lojas de pequeno porte.
+                    </p>
+                    <span class="tag">Desktop</span>
+                </div>
+
+                <div class="card">
+                    <h3>Controle Veicular</h3>
+                    <p>App para gestão de manutenções, combustível e despesas. Disponível na Play Store.</p>
+                    <a href="#" class="btn-link">Ver na Google Play →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Dicas de Informática (Blog)</h2>
         <h1>Guia de estudo sobre o framework Scrum</h1>
-		<h2>Sugestão para leitura e formação inicial</h2>
-        <ul>
-            <li>Comece pelo site de maior referência em Scrum que é o Scrum.org, mas não se limite a ele, pesquise no blog, interaja com a comunidade.</li>
-            <li><strong>Leitura obrigatória</strong> é o manifesto ágil, bem como sua compreensão e aplicação no cotidiano. (4 valores e 12 princípios) - <a href="https://www.manifestoagil.com.br/" title="Manifesto Ágil">Manifesto Ágil</a></li>
-            <li><strong>Leitura obrigatória</strong> é o guia do Scrum - <a href="https://www.scrumguides.org/docs/scrumguide/v1/Scrum-Guide-Portuguese-BR.pdf" title="Guia do Scrum">Guia do Scrum</a></li>
-            <li>Site com conteúdo grátis e bastante relevante estão disponíveis na Internet. Os que conheço e indico são:</li>
-            <ul>
-                <li><a href="https://www.scrum.org/" title="Scrum Org">Scrum Org</a></li>
-                <li><a href="https://www.scrumstudy.com/" title="Scrum Study">Scrum Study</a></li>
-                <li><a href="https://blog.myscrumhalf.com/" title="Scrum Half">Scrum Half</a></li>
-            </ul>
-            <li>Para quem tiver a intenção de realizar a prova para certificação, tem um curso muito bom na Udemy que fiz e recomendo - <a href="https://www.udemy.com/course/formacao-total-em-scrum/" title="Curso Udemy">Curso Udemy</a></li>
-        </ul>
-        <h2>Certificações Scrum</h2>
-        <ul>
-            <li>PSMI da Scrum.org</li>
-            <ul>
-                <li>Guia de certificações - <a href="https://www.scrum.org/index.php/professional-scrum-certifications" title="Certificações Scrum">Guia</a></li>
-            </ul>
-            <li>SFC da Scrum Study</li>
-            <p>Minha sugestão para o Scrum master é que faça pelos menos essas duas indicadas acima, A PSM I é mais complexa e portanto de maior reconhecimento para o mercado, seguindo uma sequencia eu indico a SFC e depois a PSM I.</p>
-            <p>Para desenvolvedores de sistemas a SFC já é suficiente para entender o framework e obter o máximo proveito nas cerimônias ,querendo se aprofundar também tem uma trilha específica para o DEV no Scrum.org.</p>
-        </ul>
-        <h2>Livros</h2>
-        <ul>
-            <li><a href="https://www.amazon.com.br/Scrum-fazer-dobro-trabalho-metade-ebook/dp/B00OEI3TKM" title="Scrum: a arte de fazer o dobro do trabalho em metade do tempo, por Jeff Sutherland">Scrum: a arte de fazer o dobro do trabalho em metade do tempo, por Jeff Sutherland</a></li>
-        </ul>
-        <h2>Site para estudo</h2>
-        <ul>
-            <li><a href="https://www.scrum.org/" title="Scrum Org">Scrum Org</a></li>
-            <li><a href="https://www.scrumstudy.com/" title="Scrum Study">Scrum Study</a></li>
-            <li><a href="https://www.scrumalliance.org/" title="Scrum Alliance">Scrum Alliance</a></li>
-            <li><a href="http://www.scrumcasestudies.com/" title="Casos de Uso com Scrum">Casos de Uso com Scrum</a></li>
-        </ul>
-    </div>
+        <h2>Sugestão para leitura e formação inicial</h2>
+        <div class="blog-list">
+            <article>
+
+                <ul>
+                    <li>Comece pelo site de maior referência em Scrum que é o Scrum.org, mas não se limite a ele,
+                        pesquise
+                        no blog, interaja com a comunidade.</li>
+                    <li><strong>Leitura obrigatória</strong> é o manifesto ágil, bem como sua compreensão e aplicação no
+                        cotidiano. (4 valores e 12 princípios) - <a href="https://www.manifestoagil.com.br/"
+                            title="Manifesto Ágil">Manifesto Ágil</a></li>
+                    <li><strong>Leitura obrigatória</strong> é o guia do Scrum - <a
+                            href="https://www.scrumguides.org/docs/scrumguide/v1/Scrum-Guide-Portuguese-BR.pdf"
+                            title="Guia do Scrum">Guia do Scrum</a></li>
+                    <li>Site com conteúdo grátis e bastante relevante estão disponíveis na Internet. Os que conheço e
+                        indico
+                        são:</li>
+                    <ul>
+                        <li><a href="https://www.scrum.org/" title="Scrum Org">Scrum Org</a></li>
+                        <li><a href="https://www.scrumstudy.com/" title="Scrum Study">Scrum Study</a></li>
+                        <li><a href="https://blog.myscrumhalf.com/" title="Scrum Half">Scrum Half</a></li>
+                    </ul>
+                    <li>Para quem tiver a intenção de realizar a prova para certificação, tem um curso muito bom na
+                        Udemy
+                        que fiz e recomendo - <a href="https://www.udemy.com/course/formacao-total-em-scrum/"
+                            title="Curso Udemy">Curso Udemy</a></li>
+                </ul>
+                <h2>Certificações Scrum</h2>
+                <ul>
+                    <li>PSMI da Scrum.org</li>
+                    <ul>
+                        <li>Guia de certificações - <a
+                                href="https://www.scrum.org/index.php/professional-scrum-certifications"
+                                title="Certificações Scrum">Guia</a></li>
+                    </ul>
+                    <li>SFC da Scrum Study</li>
+                    <p>Minha sugestão para o Scrum master é que faça pelos menos essas duas indicadas acima, A PSM I é
+                        mais
+                        complexa e portanto de maior reconhecimento para o mercado, seguindo uma sequencia eu indico a
+                        SFC e
+                        depois a PSM I.</p>
+                    <p>Para desenvolvedores de sistemas a SFC já é suficiente para entender o framework e obter o máximo
+                        proveito nas cerimônias ,querendo se aprofundar também tem uma trilha específica para o DEV no
+                        Scrum.org.</p>
+                </ul>
+                <h2>Livros</h2>
+                <ul>
+                    <li><a href="https://www.amazon.com.br/Scrum-fazer-dobro-trabalho-metade-ebook/dp/B00OEI3TKM"
+                            title="Scrum: a arte de fazer o dobro do trabalho em metade do tempo, por Jeff Sutherland">Scrum:
+                            a arte de fazer o dobro do trabalho em metade do tempo, por Jeff Sutherland</a></li>
+                </ul>
+                <h2>Site para estudo</h2>
+                <ul>
+                    <li><a href="https://www.scrum.org/" title="Scrum Org">Scrum Org</a></li>
+                    <li><a href="https://www.scrumstudy.com/" title="Scrum Study">Scrum Study</a></li>
+                    <li><a href="https://www.scrumalliance.org/" title="Scrum Alliance">Scrum Alliance</a></li>
+                    <li><a href="http://www.scrumcasestudies.com/" title="Casos de Uso com Scrum">Casos de Uso com
+                            Scrum</a>
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Anderson Silva</p>
+    </footer>
+
 </body>
+
 </html>
